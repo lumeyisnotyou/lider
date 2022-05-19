@@ -1,0 +1,63 @@
+html,
+body {
+
+  font-family: "Circular Std Book", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bold, .header-text, h1, h2, h3, .playlist-name {
+  font-family: "Space Mono", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+
+.semibold, .title, .md-option-header {
+  font-family: "Space Mono", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+.app-sidebar-header, .app-sidebar-header-text {
+  font-family: "Space Mono", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+/* kinda messy stuff ngl */
+:root {
+  --appleEase: cubic-bezier(0.42, 0, 0.58, 1);
+  --mediaItemShadow: inset 0px 0px 0px 1px rgb(200 200 200 / 16%);
+  --mediaItemShadow-Shadow: 0 8px 40px rgb(0 0 0 / 0.55);
+  --mediaItemShadow-ShadowSubtle: 0 4px 14px rgb(0 0 0 / 10%);
+  --ciderShadow-Generic: var(--mediaItemShadow), 0 8px 40px rgb(0 0 0 / 0.55);
+  --mediaItemRadius: 6px;
+  --mediaItemRadiusRound: 100%;
+  --panelRadius: 10px;
+  --contentInnerPadding: 16px;
+  --navbarHeight1: 48px;
+  --navbarHeight2: 0px;
+  --navbarHeight: calc(var(--navbarHeight1) + var(--navbarHeight2));
+  --selected: rgb(130 130 130 / 30%);
+  --selected-click: rgb(80 80 80 / 30%);
+  --hover: rgb(200 200 200 / 10%);
+  --keyColor: #7ac9ef;
+  --keyColor-rgb: 122, 203, 240;
+  --keyColor-rollover: #558ca5;
+  --keyColor-rollover-rgb: 85, 140, 165;
+  --keyColor-pressed: #bcdceb;
+  --keyColor-pressed-rgb: 189, 220, 235;
+  --keyColor-deepPressed: #bcdceb;
+  --keyColor-deepPressed-rgb: 189, 220, 235;
+  --keyColor-disabled: #56646b;
+  --keyColor-primary: #7ac9ef;
+  --navigationBarHeight: 0px;
+  --modalBackground: #262626;
+  --songProgressColor: var(--keyColor);
+  --songProgressBackground: #333;
+  --textColor: #eee;
+  --replayGradient: linear-gradient(45deg, hsl(248deg 58% 29%), hsl(13deg 41% 42%));
+  --glassFilter: blur(16px) saturate(180%); 
+}
+
+.md-btn.md-btn-primary {
+  background: #7ac9ef;
+  color: white;
+  border: 1px solid #bcdceb;
+  border-top: 1px solid #2d4652;
+}
